@@ -11,5 +11,6 @@ namespace APAERMENT_LAST_API.Configurations
 
         }
         public DbSet<Building> TblBuilding { get; set; }
+        public DbSet<User> TblUser { get; set; }
     }
 }
